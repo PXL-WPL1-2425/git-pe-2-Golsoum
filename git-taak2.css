@@ -3,15 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    background-image: url("assets/background.jpg");
-    background-size: cover;
+header {
+
+    width: 100%;
+}
+.hero_new__video {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+
 
 }
-nav {
+
+header nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    position: relative;
+    z-index: 2;
 
 }
 .nav_logo img {
@@ -20,7 +33,6 @@ nav {
 .nav_container ul {
     display: flex;
     list-style: none;
-
 
 }
 .nav_container ul li {
