@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-image: url("assets/background.jpg");
+    background-size: cover;
+
+}
 nav {
     display: flex;
     flex-direction: row;
@@ -11,4 +16,18 @@ nav {
 }
 .nav_logo img {
     width: 120px;
+}
+.nav_container ul {
+    display: flex;
+    list-style: none;
+
+
+}
+.nav_container ul li {
+padding: 30px 20px;
+}
+.nav_container ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14pt;
 }
